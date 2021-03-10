@@ -16,6 +16,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Eras">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +29,24 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <style type="text/css">
+    .custom-header{
+      border-bottom: 2px solid #0b8dcb;
+    }
+
+    @font-face {
+
+      font-family: 'Eras';
+      src:url('fonts/Eras.ttf') format('truetype'), 
+            url('fonts/Eras_Book.ttf') format('truetype'), 
+            url('fonts/ERASBD.TTF') format('truetype'), 
+            url('fonts/ERASDEMI.TTF') format('truetype'), 
+            url('fonts/ERASMD.TTF') format('truetype'), 
+              font-weight: normal;
+              font-style: normal;
+    }
+  </style>
 
 </head>
 
@@ -46,7 +66,7 @@
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="about">About</a></li>
           <li><a class="nav-link scrollto" href="/#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="group">Group</a></li>
+          <!-- <li><a class="nav-link scrollto" href="group">Group</a></li> -->
           <li><a class="nav-link scrollto" href="/#projects">Projects</a></li>
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
@@ -62,8 +82,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Welcome To M-SYSTEMS</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Promoting Development Through Innovation & Entrepreneurship.</h2>
+          <div class="custom-header">
+            <h2 data-aos="fade-up" style="color: #0b8dcb !important;">Welcome To</h2>
+            <h2 data-aos="fade-up" style="color: #0b8dcb !important; font-size: 30px;">M-SYSTEMS Canada Corp</h2>
+          </div>
+          <h2 data-aos="fade-up" data-aos-delay="400">Promoting Development Through Innovations & Entrepreneurship.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -74,7 +97,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid" width="700" alt="">
+          <img src="assets/img/hero-img.png" class="img-fluid" width="400" alt="">
         </div>
       </div>
     </div>
@@ -317,15 +340,8 @@
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.jpg" alt="">
-              <span>M-SYSTEMS</span>
             </a>
-            <p>Our service delivery is guided by adherence to professional ethics, competence and integrity..</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
-            </div>
+            <p style="font-size: 17px">Our service delivery is guided by adherence to professional ethics, competence and integrity..</p>
           </div>
 
           <div class="col-lg-4 col-6 footer-links">
@@ -334,18 +350,13 @@
               <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="about">About us</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="services">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="services">Group</a></li>
+              <!-- <li><i class="bi bi-chevron-right"></i> <a href="services">Group</a></li> -->
               <li><i class="bi bi-chevron-right"></i> <a href="services">Project</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>
-              2282 St Patrick's Ave Windsor, <br>
-              NN9B 3Y4 <br>
-              Canada<br><br>
-              <strong>Phone:</strong> 0001-51996293<br>
               <strong>Email:</strong> info@msyscan.com<br>
             </p>
 

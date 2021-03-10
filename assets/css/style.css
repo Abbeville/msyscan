@@ -2361,3 +2361,15 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+@font-face {
+
+  font-family: 'Eras';
+  src:url('fonts/Eras.ttf') format('truetype'), 
+      url('fonts/Eras_Book.ttf') format('truetype'), 
+      url('fonts/ERASBD.TTF') format('truetype'), 
+      url('fonts/ERASDEMI.TTF') format('truetype'), 
+      url('fonts/ERASMD.TTF') format('truetype'), 
+        font-weight: normal;
+        font-style: normal;
+}
